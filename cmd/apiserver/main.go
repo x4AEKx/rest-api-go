@@ -6,6 +6,8 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"github.com/x4AEKx/rest-api-go/internal/app/apiserver"
+
+	_ "github.com/x4AEKx/rest-api-go/migrations"
 )
 
 var (
@@ -17,6 +19,7 @@ func init() {
 }
 
 func main() {
+
 	flag.Parse()
 
 	config := apiserver.NewConfig()
