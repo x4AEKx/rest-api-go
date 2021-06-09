@@ -7,10 +7,12 @@ require (
 	git.apache.org/thrift.git v0.0.0-20180807212849-6e67faa92827 // indirect
 	github.com/BurntSushi/toml v0.3.1
 	github.com/ClickHouse/clickhouse-go v1.4.5 // indirect
+	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
 	github.com/cznic/ql v1.2.0 // indirect
 	github.com/denisenkom/go-mssqldb v0.10.0 // indirect
 	github.com/go-ini/ini v1.38.2 // indirect
+	github.com/go-ozzo/ozzo-validation v3.6.0+incompatible // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/golang-migrate/migrate v3.5.4+incompatible
 	github.com/golang-migrate/migrate/v4 v4.14.1 // indirect
